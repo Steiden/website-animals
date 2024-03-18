@@ -1,0 +1,61 @@
+.main__about {
+}
+
+.about {
+    background-color: $green-dark-color;
+}
+
+.about__container {
+    @include flex-direction($gap: 30px);
+    padding-block: 40px;
+
+    position: relative;
+}
+
+.about__img-list {
+    @include flex-center($direction: row, $gap: 10px);
+    width: 100%;
+    height: 750px;
+}
+
+.about__img-list-item {
+    width: 25%;
+    height: 100%;
+}
+
+.about__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about__title {
+    color: $white-color;
+
+    &--strong {
+        font-weight: 900;
+    }
+}
+
+.about__text {
+    color: $white-color;
+}
+
+.about__button {
+}
+
+.about__other-buttons-container {
+    @include flex-center($gap: 35px);
+    flex-direction: row;
+
+    position: absolute;
+
+    bottom: 0;
+    right: 35px;
+    translate: 0 50%;
+}
+
+.about__other-button {
+    font-size: 40px;
+    padding: 30px 40px;
+}

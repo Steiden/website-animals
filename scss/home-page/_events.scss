@@ -1,0 +1,41 @@
+.events {
+    position: relative;
+    color: $white-color;
+    width: 100%;
+    text-align: end;
+}
+
+.events__about {
+    @include flex-direction($direction: column, $gap: 25px);
+
+    text-align: left;
+    background-color: $green-mint-color;
+
+    position: absolute;
+
+    left: 0;
+    top: 0;
+    translate: 0 -20%;
+
+    padding: 20px 75px 60px;
+    width: 90%;
+}
+
+.events__title-label {
+    font: {
+        size: 24px;
+        weight: 500;
+    }
+}
+
+.events__title {
+}
+
+.events__text {
+}
+
+.about__button {
+}
+
+.events__img {
+}

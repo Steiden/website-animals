@@ -1,0 +1,73 @@
+.about-view {
+    margin-block: 150px;
+}
+
+.about-view__container {
+    @include flex-direction($direction: column, $gap: 10px);
+}
+
+.about-view__title-container {
+    @include flex(space-between, flex-end, row, nowrap, 10px);
+    width: 100%;
+}
+
+.about-view__title {
+    color: $green-dark-color;
+    font-weight: 900;
+
+    &--orange {
+        font-size: 110px;
+        color: $orange-color;
+    }
+}
+
+.about-view__link {
+    font: {
+        size: 20px;
+        weight: 900;
+    }
+
+    text-decoration: underline;
+    color: $green-dark-color;
+}
+
+.about-view__animal-cards-container {
+    @include flex-center($direction: row, $gap: 50px);
+}
+
+.about-view__animal-card {
+}
+
+.animal-card {
+    position: relative;
+
+    width: 33%;
+    height: 310px;
+}
+
+.animal-card__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.animal-card__about {
+    background-color: $orange-color;
+    color: $white-color;
+
+    padding: 20px;
+    width: 90%;
+
+    position: absolute;
+
+    bottom: 0;
+    left: 50%;
+    translate: -50% 50%;
+}
+
+.animal-card__text {
+    font-size: 28px;
+}
+
+.animal-card__title {
+}

@@ -1,0 +1,83 @@
+.about-more {
+}
+
+.about-more__container {
+    @include flex-direction($direction: row, $gap: 10px);
+
+    padding-left: 75px;
+}
+
+.about-more__texts-container {
+    @include flex-direction($gap: 110px);
+}
+
+.about-more__text-container {
+    @include flex-direction($gap: 10px);
+}
+
+.about-more__title {
+    font-size: 50px;
+    color: $green-mint-color;
+}
+
+.about-more__text {
+    font-weight: 300;
+}
+
+.about-more__button {
+    margin-top: 20px;
+}
+
+.about-more__schedules-container {
+    @include flex-direction($direction: row);
+}
+
+.about-more__schedule {
+    width: 25vw;
+    height: 720px;
+
+    padding: 50px 30px;
+}
+
+.schedule {
+    @include flex(space-between, center, column, nowrap, 10px);
+
+    &--green-mint {
+        background-color: $green-mint-color;
+        color: $orange-color;
+    }
+
+    &--orange {
+        background-color: $orange-color;
+        color: $green-mint-color;
+    }
+}
+
+.schedule__text-container {
+    @include flex-center($gap: 10px);
+}
+
+.schedule__title {
+    color: $white-color;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.schedule__line {
+    width: 100%;
+    background-color: $yellow-color;
+}
+
+.schedule__text {
+    color: $white-color;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.schedule__link {
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: underline;
+}

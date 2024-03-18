@@ -1,0 +1,38 @@
+.other-sections {
+}
+
+.other-sections__container {
+    @include flex-direction($gap: 20px);
+}
+
+.other-sections__section-container {
+    @include flex(space-between, center, row, nowrap, 35px);
+}
+
+.other-sections__section {
+}
+
+.section {
+    @include flex-direction($direction: column, $gap: 25px);
+
+    background-color: $green-mint-color;
+    color: $white-color;
+
+    padding: 20px 75px 60px;
+}
+
+.section__title-label {
+    font: {
+        size: 24px;
+        weight: 500;
+    }
+}
+
+.section__title {
+}
+
+.section__text {
+}
+
+.other-sections__button {
+}

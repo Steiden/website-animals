@@ -1,0 +1,16 @@
+@mixin flex($justify: flex-start, $align: flex-start, $direction: row, $wrap: nowrap, $gap: 0) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+    flex-direction: $direction;
+    flex-wrap: $wrap;
+    gap: $gap;
+}
+
+@mixin flex-center($direction: column, $wrap: nowrap, $gap: 0) {
+    @include flex(center, center, $direction, $wrap, $gap);
+}
+
+@mixin flex-direction($direction: column, $wrap: nowrap, $gap: 0) {
+    @include flex(flex-start, flex-start, $direction, $wrap, $gap);
+}
