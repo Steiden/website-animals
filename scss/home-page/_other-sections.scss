@@ -5,6 +5,10 @@
     @include flex-direction($gap: 20px);
 }
 
+.other-sections__img {
+    width: 100%;
+}
+
 .other-sections__section-container {
     @include flex(space-between, center, row, nowrap, 35px);
 }

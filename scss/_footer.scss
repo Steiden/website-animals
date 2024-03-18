@@ -1,18 +1,24 @@
 .footer {
+    background-color: $green-mint-color;
+    margin-top: 100px;
 }
 
 .footer__container {
+    padding: 30px;
 }
 
 .footer__nav {
 }
 
 .footer__list {
-    @include flex-center($gap: 10px);
+    @include flex-center($direction: row, $gap: 20px);
 }
 
 .footer__item {
 }
 
 .footer__link {
+    font-size: 24px;
+    font-weight: 700;
+    color: $white-color;
 }

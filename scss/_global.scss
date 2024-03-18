@@ -49,7 +49,8 @@ body {
 
 .main {
     @include flex-direction($direction: column, $gap: 75px);
-    height: 100dvh;
+
+    padding: 20px;
 }
 
 .container {
