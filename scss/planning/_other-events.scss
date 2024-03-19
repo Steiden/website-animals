@@ -1,0 +1,31 @@
+.other-events {
+	width: 100%;
+	color: $white-color;
+}
+
+.other-events__container {
+	@include flex-center($gap: 50px);
+	padding: 50px;
+}
+
+.other-events__title {
+}
+
+.other-events__cards-container {
+	@include flex-center($direction: row, $gap: 30px);
+}
+
+.other-events__card {
+	background-color: $orange-color;
+
+	width: 30%;
+	align-self: stretch;
+}
+
+.other-events__img {
+	width: 100%;
+}
+
+.other-events__text {
+	padding: 10px;
+}

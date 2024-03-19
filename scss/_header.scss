@@ -1,0 +1,7 @@
+.header {
+	font-size: 24px;
+}
+
+.header__list {
+	@include flex-center($direction: row, $gap: 25px);
+}

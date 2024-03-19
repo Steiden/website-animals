@@ -12,7 +12,7 @@
 
 <body>
 
-	<header>
+	<header class="header">
 		<nav class="navbar navbar-expand-lg bg-body-tertiary">
 			<div class="container-fluid">
 				<a class="navbar-brand" href="./home page.html">
@@ -24,7 +24,7 @@
 					<span class="navbar-toggler-icon"></span>
 				</button>
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0 header__list">
 						<li class="nav-item">
 							<a class="nav-link" aria-current="page" href="./home page.html">Главная</a>
 						</li>
@@ -59,71 +59,64 @@
 	<main class="main">
 		<!-- Секция с изображением -->
 		<section class="main__section img">
-			<img src="./img/6r0bom7ggm_Julie_Larsen_Maher_4984_Snow_Leopard_Askai_CPZ_10_22_13_hr 2.png" alt="img">
-			<div class="img__buttons-container d-flex justify-content-center w-100">
-				<button type="button" class="btn btn-success">ПОЖЕРТВОВАТЬ</button>
-				<button type="button" class="btn btn-primary">СООБЩЕСТВО</button>
-				<button type="button" class="btn btn-warning button--orange">КУПИТЬ БИЛЕТ</button>
-			</div>
+			<img src="./img/42uo6vctwl_6ndvu7mify_Hero_Julie_Larsen_Maher_9318_Sea_Lion_Pool_SLP_CPZ_08_09_17 3.png"
+				alt="img">
 		</section>
 
 		<!-- Секция о странице -->
 		<section class="main__section things-about">
 			<div class="things-about__container container">
 				<p class="things-about__title-label">Что можно сделать</p>
-				<h1 class="things-about__title">Что можно сделать</h1>
+				<h1 class="things-about__title">Планировать свои визиты</h1>
 				<p class="things-about__text">Discover the wild side of Staten Island. At the Staten Island Zoo, you can
 					marvel
 					at incredible animal exhibits and activities. Spot elusive snow leopards, watch sea lions perform,
 					or have fun like a kid at the Children's Zoo.</p>
-				<button type="button" class="btn btn-warning button--orange things-about__button">Больше...</button>
+				<button type="button" class="btn btn-primary things-about__button">Больше...</button>
 			</div>
 		</section>
 
-		<!-- Секция о животных -->
-		<section class="main__section things-animals bg-primary">
-			<div class="things-animals__container container">
-				<p class="things-animals__text">A great experience on every visit. The staff is always helpful, the park
-					is always clean and everyone is willing to help at any time”</p>
-				<div class="things-animals__card-container">
-					<article class="things-animals__card things-animals-card">
-						<img src="./img/9ayncfth4i_238e79phl_Julie_Larsen_Maher_4987_Snow_Leopard_Askai_CPZ_10_22_13_hr 1.png"
-							alt="img" class="things-animals__img">
-						<div class="things-animals-card__content">
-							<h3 class="things-animals-card__title">Кот</h3>
-							<p class="things-animals-card__text">Explore which outdoor and indoor exhibits you’d like to
-								stop by
-								first.</p>
-							<button type="button" class="btn btn-success">Больше...</button>
-						</div>
-					</article>
-					<article class="things-animals__card things-animals-card">
-						<img src="./img/9ayncfth4i_238e79phl_Julie_Larsen_Maher_4987_Snow_Leopard_Askai_CPZ_10_22_13_hr 1.png"
-							alt="img" class="things-animals__img">
-						<div class="things-animals-card__content">
-							<h3 class="things-animals-card__title">Кот</h3>
-							<p class="things-animals-card__text">Explore which outdoor and indoor exhibits you’d like to
-								stop by
-								first.</p>
-							<button type="button" class="btn btn-primary">Больше...</button>
-						</div>
-					</article>
+		<!-- Секция полезной информации -->
+		<section class="main__section useful-information">
+			<div class="useful-information__container container">
+				<div class="useful-information__schedule useful-information__section">
+					<h2 class="useful-information__title">График работы</h2>
+					<p class="useful-information__text">Ноябрь 23 - Март 31, 2023</p>
+					<p class="usefule-information__text--time">10:00 - 16:30</p>
+					<p class="useful-information__text">Ноябрь 23 - Март 31, 2023</p>
+					<p class="usefule-information__text--time">10:00 - 16:30</p>
+					<p class="useful-information__text">Ноябрь 23 - Март 31, 2023</p>
+					<p class="usefule-information__text--time">10:00 - 16:30</p>
+					<button type="button" class="btn btn-primary button--orange things-about__button">Больше...</button>
+				</div>
+				<div class="usefule-information__map useful-information__section">
+					<h2 class="useful-information__title">Местонахождение</h2>
+					<p class="useful-information__text--address">Пермский край, г. Пермь, ул. Победная, д. 31, 617295
+					</p>
+					<img src="./img/8y1s98f1xi_Screen_Shot_2020_07_22_at_1.26 1.png" alt="img">
 				</div>
 			</div>
 		</section>
 
-		<!-- Секция события -->
-		<section class="main__section things-events">
-			<div class="things-event__container container">
-				<img src="./img/15gbeir55h_Julie_Larsen_Maher_4464_girl_and_a_sheep_TCZ_CPZ_09_07_07 2.png" alt="img"
-					class="things-events__img" width="500" height="500">
-				<div class="things-events__content">
-					<p class="things-events__title-label">Что можно сделать</p>
-					<h1 class="things-events__title">События</h1>
-					<p class="things-events__text">Discover the wild side of Staten Island. At the Staten Island Zoo,
-						you can marvel at incredible animal exhibits and activities. Spot elusive snow leopards, watch
-						sea lions perform, or have fun like a kid at the Children's Zoo.</p>
-					<button type="button" class="btn btn-warning button--orange things-events__button">Больше...</button>
+		<!-- Секция разных событий -->
+		<section class="main__section other-events bg-primary">
+			<div class="other-events__container container">
+				<h2 class="other-events__title">Именины и другое</h2>
+				<div class="other-events__cards-container">
+					<article class="other-events__card">
+						<img src="./img/41amliu9nb_Julie_Larsen_Maher_8192_Village_Burger_AFP_BZ_05_17_16_1 1.png"
+							alt="img" class="other-events__img">
+						<p class="other-events__text">Еда и вкусности</p>
+					</article>
+					<article class="other-events__card">
+						<img src="./img/7zxypj8hja_Julie_Larsen_Maher_8816_Visitors_in_Masks_CPZ_08_11_20_hr 1.png"
+							alt="img" class="other-events__img">
+						<p class="other-events__text">Парк для отдыха</p>
+					</article>
+					<article class="other-events__card">
+						<img src="./img/8v0gji2mob_cake_setup 1.png" alt="img" class="other-events__img">
+						<p class="other-events__text">Праздники вечеринки</p>
+					</article>
 				</div>
 			</div>
 		</section>
@@ -132,7 +125,7 @@
 		<nav class="navbar navbar-expand-lg">
 			<div class="container-fluid">
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0 footer__list">
 						<li class="nav-item">
 							<a class="nav-link" aria-current="page" href="#">Главная</a>
 						</li>
