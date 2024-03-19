@@ -1,0 +1,43 @@
+.animals-events {
+	height: 1500px;
+	width: 100%;
+
+	position: relative;
+}
+
+.animals-events__about-container {
+	@include flex(flex-end, flex-end, column, nowrap, 50px);
+
+	position: absolute;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.animals-events__about {
+	@include flex-direction(column, nowrap, 20px);
+	background-color: $green-mint-color;
+	color: $white-color;
+
+	padding: 30px;
+	width: 50%;
+}
+
+.animals-events__title-label {
+}
+
+.animals-events__title {
+}
+
+.animals-events__text {
+	font-size: 24px;
+}
+
+.about__button {
+}
+
+.animals-events__img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}

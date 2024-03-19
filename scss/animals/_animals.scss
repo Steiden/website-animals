@@ -1,0 +1,22 @@
+.animals {
+	width: 100%;
+
+	margin-block: 100px;
+}
+
+.animals__container {
+}
+
+.animals__cards-container {
+	@include flex($justify: space-around, $direction: row, $gap: 20px);
+}
+
+.animals__card {
+	width: 25%;
+}
+
+.animals__img {
+	width: 300px;
+	aspect-ratio: 1;
+	object-fit: cover;
+}
