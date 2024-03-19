@@ -1,0 +1,46 @@
+.things-animals {
+	width: 100%;
+}
+
+.things-animals__container {
+	@include flex(space-between, center, row, nowrap, 50px);
+	position: relative;
+}
+
+.things-animals__text {
+	color: $white-color;
+	font-size: 40px;
+}
+
+.things-animals__card-container {
+	@include flex-direction(row, nowrap, 30px);
+
+	transform: translateY(-10%);
+}
+
+.things-animals__card {
+	background-color: $white-color;
+	color: $green-color;
+	width: 20vw;
+}
+
+.things-animals-card {
+}
+
+.things-animals-card__content {
+	@include flex-center($gap: 15px);
+
+	padding: 20px;
+}
+
+.things-animals__img {
+	width: 100%;
+}
+
+.things-animals-card__title {
+}
+
+.things-animals-card__text {
+	font-size: 20px;
+	line-height: 20px;
+}

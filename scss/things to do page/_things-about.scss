@@ -1,0 +1,25 @@
+.things-about {
+	margin-block: 50px;
+}
+
+.things-about__container {
+	@include flex-direction($direction: column, $gap: 10px);
+}
+
+.things-about__title-label {
+	color: $orange-color;
+	font-size: 32px;
+}
+
+.things-about__title {
+	color: $green-color;
+}
+
+.things-about__text {
+	color: $black-color;
+}
+
+.things-about__button {
+	padding: 15px;
+	font-size: 25px;
+}

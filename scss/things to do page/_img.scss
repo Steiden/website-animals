@@ -1,0 +1,25 @@
+.img {
+	position: relative;
+
+	img {
+		width: 100vw;
+		height: 100%;
+	}
+}
+
+.img__buttons-container {
+	gap: 25px;
+
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translate(-50%, 50%);
+
+	z-index: 10;
+
+	.btn {
+		color: $white-color;
+		font-size: 30px;
+		padding: 15px;
+	}
+}

@@ -1,0 +1,32 @@
+.things-events {
+	margin-block: 50px;
+	width: 100%;
+}
+
+.things-event__container {
+	@include flex(space-between, center, row, nowrap, 40px);
+}
+
+.things-events__img {
+	object-fit: cover;
+}
+
+.things-events__content {
+	text-align: end;
+}
+
+.things-events__title-label {
+	color: $orange-color;
+}
+
+.things-events__title {
+	color: $green-color;
+}
+
+.things-events__text {
+}
+
+.things-events__button {
+	padding: 15px;
+	font-size: 24px;
+}

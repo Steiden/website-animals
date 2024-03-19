@@ -49,8 +49,6 @@ body {
 
 .main {
     @include flex-direction($direction: column, $gap: 75px);
-
-    padding: 20px;
 }
 
 .container {
@@ -89,4 +87,8 @@ body {
     &--blue {
         background-color: $blue-color;
     }
+}
+
+.btn {
+	color: $white-color;
 }
