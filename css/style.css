@@ -725,6 +725,38 @@ body {
   transform: translateY(-20%);
 }
 
+.login-form {
+  width: 100%;
+}
+
+.login-form__container {
+  padding-block: 50px;
+}
+
+.login-form__form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 25px;
+}
+.login-form__form div {
+  width: 100%;
+}
+.login-form__form label {
+  font-size: 24px;
+}
+.login-form__form input,
+.login-form__form button {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.login-form__button {
+  width: 70%;
+}
+
 .header {
   font-size: 22px;
 }
