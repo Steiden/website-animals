@@ -93,6 +93,7 @@ body {
 
 .about {
   background-color: #045703;
+  width: 100%;
 }
 
 .about__container {
@@ -160,6 +161,7 @@ body {
 
 .about-view {
   margin-block: 150px;
+  width: 100%;
 }
 
 .about-view__container {
@@ -262,6 +264,10 @@ body {
   font-weight: 500;
 }
 
+.about-more {
+  width: 100%;
+}
+
 .about-more__container {
   display: flex;
   justify-content: flex-start;
@@ -314,7 +320,6 @@ body {
 
 .about-more__schedule {
   width: 25vw;
-  height: 720px;
   padding: 50px 30px;
 }
 
@@ -324,7 +329,7 @@ body {
   align-items: center;
   flex-direction: column;
   flex-wrap: nowrap;
-  gap: 10px;
+  gap: 5px;
 }
 .schedule--green-mint {
   background-color: #035748;
@@ -341,7 +346,7 @@ body {
   align-items: center;
   flex-direction: column;
   flex-wrap: nowrap;
-  gap: 10px;
+  gap: 0;
 }
 
 .schedule__title {
@@ -353,6 +358,7 @@ body {
 
 .schedule__line {
   width: 100%;
+  height: 3px;
   background-color: #ECFF12;
 }
 
@@ -367,6 +373,10 @@ body {
   font-size: 24px;
   font-weight: 700;
   text-decoration: underline;
+}
+
+.other-sections {
+  width: 100%;
 }
 
 .other-sections__container {
@@ -389,6 +399,10 @@ body {
   flex-direction: row;
   flex-wrap: nowrap;
   gap: 35px;
+}
+
+.other-sections__section {
+  align-self: stretch;
 }
 
 .section {
